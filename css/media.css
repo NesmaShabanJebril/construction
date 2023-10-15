@@ -1,0 +1,117 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+
+
+@media (min-width: 990px) and (max-width: 1280px) {
+    .w-55{
+        width:100%;
+    }
+    
+    
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 989px) {
+       
+	.abs{    padding-top: 30%;}
+	.r1 .abs{
+		padding-top: 50%;
+	}
+	.row1{
+		
+		background-color: #000;
+	}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+@media (min-width: 501px) and (max-width: 767px) { 
+    body{
+        text-align: center;
+    }
+    .abs>h1{
+    font-size:50px;    
+}
+  
+     .circle{
+        margin:auto;
+    }
+    .abs{
+            padding-top: 30%;
+         padding-left: 10px;
+        padding-right:10px;
+    }
+	.r1 .abs{
+		padding-top: 50%
+	}
+	.row1{
+		
+		background-color: #000;
+		
+	}
+	p{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 25px;
+	}
+   .mr-left{
+margin: auto;}  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 500px) {
+    .abs{    padding-top: 30%;
+    padding-left: 10px;
+        padding-right:10px;
+    }
+	.row1{
+		
+		background-color: #000;
+	}
+.r1 .abs{
+		padding-top: 50%
+	}
+    .abs>h1{
+    font-size:40px;    
+}
+   .carousel-item>img{
+    margin-top: 65px;
+}
+  body{
+        text-align: center;
+    }
+    .circle{
+        margin:auto;
+    }
+    .logo{
+        width: 80%;
+    }
+    .w-55{
+        width:100%;
+    }
+     p{
+		font-size: 18px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	.mr-left{
+margin: auto;}
+}
